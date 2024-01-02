@@ -1,0 +1,212 @@
+.all-site{
+    background-color: #1E202B;
+    font-family: 'Roboto', sans-serif;
+}
+.text-gray{
+    color: #cecece;
+}
+.under-link{
+    font-size: 10px;
+}
+.all-site .nav-link {
+    display: block;
+    font-size: 14px!important;
+    padding: 3px 30px!important;
+    font-weight: var(--bs-nav-link-font-weight);
+    color: white;
+    text-decoration: none;
+    background: 0 0;
+    margin: 0px 5px;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    transition: all .3s ease;
+    
+    border-radius: 50px;
+    
+    
+}
+.all-site .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    /* color:; */
+    outline:2px solid #009AD8 ;
+    border-radius: 50px;
+}
+.all-site .navbar {
+    --bs-navbar-padding-x: .75rem;
+    --bs-navbar-padding-y: 0.5rem;
+    --bs-navbar-color: rgba(var(--bs-emphasis-color-rgb), 0.65);
+    --bs-navbar-active-color: #009AD8;
+    --bs-navbar-brand-padding-y: 0.3125rem;
+    --bs-navbar-brand-margin-end: 1rem;
+    --bs-navbar-brand-font-size: 1.25rem;
+    --bs-navbar-nav-link-padding-x: 1rem;
+    --bs-navbar-toggler-padding-y: 0.25rem;
+    --bs-navbar-toggler-padding-x: 0.75rem;
+    --bs-navbar-toggler-font-size: 1.25rem;
+    --bs-navbar-toggler-icon-bg: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2833, 37, 41, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e);
+    --bs-navbar-toggler-border-color: rgba(var(--bs-emphasis-color-rgb), 0.15);
+    --bs-navbar-toggler-border-radius: var(--bs-border-radius);
+    --bs-navbar-toggler-focus-width: 0.25rem;
+    --bs-navbar-toggler-transition: box-shadow 0.15s ease-in-out;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
+}
+.all-site .nav-link:hover{
+    outline: 2px solid #009AD8 ;
+    color: #009AD8  ;
+}
+.search{
+    background-image: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2)), url(../Img/banner.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 70px 0px 150px 0px;
+}
+.mycontainer{
+    width: 90%;
+    margin: 0 auto;
+}
+.search input{
+    width: 90%;
+    margin-left: 50px ;
+    color: white;
+}
+.search input:focus{
+    outline: 0;
+    
+    
+}
+.search button{
+    position: relative;
+    background-color: #009AD8;
+    left: -6.2%;
+    border: 0;
+    color: white;
+    padding: 0px 30px;
+    border-radius: 60px;
+    
+}
+.hero .first-day , .hero .third-day{
+    color: white;
+    background: #323544;
+}
+.hero .first-day h1{
+    font-size: 90px;
+    font-weight: 700;
+}
+.hero .first-day .head , .hero .third-day .head{
+    background-color: #2D303D;
+}
+
+.hero .body , .hero .foot{
+    padding: 30px 20px;
+}
+.trans-mid{
+    transform: translate(0,-25%);
+    padding: 0!important;
+}
+.second-day{
+    background-color: #262936;
+    color: white;
+}
+.second-day .head{
+    background-color: #222530;
+}
+.first-day , .first-day .head
+{
+    border-top-left-radius: 10px;
+}
+.third-day , .third-day .head{
+    border-top-right-radius: 10px;
+}
+.first-day{
+    border-bottom-left-radius: 10px;
+}
+.third-day{
+    border-bottom-right-radius: 10px;
+}
+.custom{
+    color: #009AD8;
+    font-size: 14px;
+}
+.second-day p , .third-day p {
+    font-size: 24px;
+    margin: 0;
+}
+.footer{
+    background-color: #262936;
+}
+.footer input{
+    width: 100%;
+    
+}
+.footer input:focus{
+    outline: 0;
+    color: white;
+    
+}
+.footer button{
+    position: relative;
+    background-color: #009AD8;
+    left: -13.8%;
+    border: 0;
+    color: white;
+    padding: 0px 30px;
+    border-radius: 60px;
+    
+}
+.footer .icons a{
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #1e202b;
+    color: #009ad8;
+    text-align: center;
+    line-height: 2;
+    margin-left: 4px;
+    transition: all .4s;
+}
+.footer .icons a:hover{
+    color: white;
+    background: #009ad8;
+}
+.footer p {
+    font-size: 14px;
+}
+@media screen and (max-width:768px)
+{
+    .second-day{
+        margin-bottom: 30px;
+    }
+    .third-day{
+        margin-top: 30px;
+    }
+     .first-day .head ,.second-day .head ,.third-day .head
+    {
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+    .first-day,.second-day,.third-day{
+        border-radius: 10px;
+    }
+    .search button{
+        left: -15%;
+        
+    }
+    .mycontainer{
+        width: 100%;
+        margin-left: 30px;
+    }
+    .search input{
+        margin-left: 0;
+    }
+    .footer .icons {
+        margin: 20px 0px;
+    }
+}
+
+
